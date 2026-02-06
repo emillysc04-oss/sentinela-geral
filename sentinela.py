@@ -13,7 +13,7 @@ SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 EMAIL_REMETENTE = os.getenv("EMAIL_REMETENTE", "").strip()
 SENHA_APP = os.getenv("SENHA_APP", "").strip()
 GOOGLE_CREDENTIALS = os.getenv("GOOGLE_CREDENTIALS")
-LOGO_URL = "https://raw.githubusercontent.com/emillysc04-oss/Sentinela-3.0/main/Logo3.png"
+LOGO_URL = "https://seeklogo.com/vector-logo/615589/hospital-de-clinicas-de-porto-alegre-hcpa"
 
 SITES_ALVO = [
     "site:gov.br", "site:edu.br", "site:org.br", "site:b.br",
