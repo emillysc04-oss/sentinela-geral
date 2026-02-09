@@ -142,7 +142,7 @@ def obter_emails():
     lista = [EMAIL_REMETENTE]
     
     gc = gspread.service_account_from_dict(json.loads(GOOGLE_CREDENTIALS))
-    raw = gc.open("Sentinela Emails").sheet1.col_values(3)
+    raw = gc.open("Sentinela Geral Emails").sheet1.col_values(3)
     for e in raw:
         if "@" in e and "email" not in e.lower():
             lista.append(e.strip())
