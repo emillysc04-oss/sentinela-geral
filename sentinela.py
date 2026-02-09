@@ -13,7 +13,7 @@ SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 EMAIL_REMETENTE = os.getenv("EMAIL_REMETENTE", "").strip()
 SENHA_APP = os.getenv("SENHA_APP", "").strip()
 GOOGLE_CREDENTIALS = os.getenv("GOOGLE_CREDENTIALS")
-LOGO_URL = "https://seeklogo.com/vector-logo/615589/hospital-de-clinicas-de-porto-alegre-hcpa"
+LOGO_URL = "https://d33wubrfki0l68.cloudfront.net/eb21c923a05a4d5a546a9008c329e93f0204bb84/7acf8/images/logo_hcpa.png"
 
 SITES_ALVO = [
     "site:gov.br", "site:edu.br", "site:org.br", "site:b.br",
