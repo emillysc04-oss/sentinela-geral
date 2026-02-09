@@ -19,8 +19,9 @@ jobs:
           python-version: '3.12'
 
       - name: Instalar Dependências
-        run: pip install -r requirements.txt
-
+        run: |
+          pip install requests gspread google-auth
+          
       - name: Rodar Sentinela
         env:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
