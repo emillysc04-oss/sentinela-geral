@@ -96,7 +96,7 @@ def formatar_html(conteudo_ia):
     <body>
         <div class="container">
             <div class="header-content">
-                <img src="{LOGO_URL}" alt="HCPA" class="logo">
+            #<img src="{LOGO_URL}" alt="HCPA" class="logo">
                 <h1 class="title"> TESTE: Sistema de monitoramento Sentinela</h1>
                 <div class="subtitle">Editais de Fomento e eventos</div>
             </div>
