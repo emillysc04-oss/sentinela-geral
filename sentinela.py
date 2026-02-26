@@ -13,7 +13,6 @@ SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 EMAIL_REMETENTE = os.getenv("EMAIL_REMETENTE", "").strip()
 SENHA_APP = os.getenv("SENHA_APP", "").strip()
 GOOGLE_CREDENTIALS = os.getenv("GOOGLE_CREDENTIALS")
-LOGO_URL = "https://d33wubrfki0l68.cloudfront.net/eb21c923a05a4d5a546a9008c329e93f0204bb84/7acf8/images/logo_hcpa.png"
 
 SITES_ALVO = [
     "site:gov.br", "site:edu.br", "site:org.br", "site:b.br",
@@ -96,7 +95,6 @@ def formatar_html(conteudo_ia):
     <body>
         <div class="container">
             <div class="header-content">
-            #<img src="{LOGO_URL}" alt="HCPA" class="logo">
                 <h1 class="title"> TESTE: Sistema de monitoramento Sentinela</h1>
                 <div class="subtitle">Editais de Fomento e eventos</div>
             </div>
